@@ -533,6 +533,8 @@ a{
     width: 40%;
     border: 1px solid rgb(184, 183, 183);
     margin-left: 50px;
+    height: 964px;
+    overflow: auto;
 }
 .multiplediv{
     width: 40%;
@@ -559,17 +561,18 @@ a{
 }
 .Notice{
     border: 1px solid rgb(184, 183, 183);
+    height: 340px;
+    overflow: auto;
 }
 .vacancies{
     border: 1px solid rgb(184, 183, 183);
     margin-top: 30px;
+    height: 343px;
+    overflow: auto;
 }
 .tenders{
     border: 1px solid rgb(184, 183, 183);
     margin-top: 30px;
-}
-.Notice ul{
-    /* display: inline-flex; */
 }
 .listheaddiv{
     margin-left: -40px;
@@ -587,4 +590,45 @@ a{
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+}
+.biglink:hover{
+    color: #981F4D;
+    text-decoration: underline #981F4D;
+}
+.smallpicdiv{
+    /* width: 100%;
+    height: auto; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.smallpicdivs{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EFF6FC
+    
+}
+.smallpic{
+    width: 190px;
+    margin-right: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.picturesdivvvv{
+   
+    width: 97%;
+    margin-left: 25px;
+    border-top: 1px solid #e4dfdf;
+}
+.pichead{
+    width: 100%;
+    font-family: system-ui;
+    color: #434343;
+    font-size: 15px;
+    padding-left: 25px;
 }
